@@ -1,0 +1,15 @@
+spring:
+  security:
+    oauth2:
+      client:
+        registration:
+          google:
+            client-id: 789995815587-os3ljre6jjn1pcr30l7hhke4hddvmefk.apps.googleusercontent.com
+            client-secret: XKs8WuszSxB9EgmRYLDbl521
+          okta:
+            client-id: 0oaj1ni67rNGhiotD0h7
+            client-secret: ZNXIAwyYlJWUGQ3XvagSm76kOUUo7giUBtWjo92z
+        provider:
+          okta:
+            issuer-uri: https://dev-845041.oktapreview.com/oauth2/default
+
